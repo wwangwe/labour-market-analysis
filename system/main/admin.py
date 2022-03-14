@@ -1,3 +1,9 @@
 from django.contrib import admin
 
-# Register your models here.
+from main import models
+
+
+@admin.register(models.Job)
+class JobAdmin(admin.ModelAdmin):
+    list_display = ('date', 'title', 'location', 'function', 'industry')
+    list_filter = ('date', 'location', 'function', 'industry')
