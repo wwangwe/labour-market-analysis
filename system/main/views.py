@@ -1,6 +1,8 @@
 from django.http import HttpResponse
-from django.shortcuts import render
 
 
 def index(request):
-    return HttpResponse("<h1>Main - Working!</h1>")
+    admin = f"""
+    <i>Page Working, Please Visit <a href='/admin'>the  Admin Panel!</a><i>
+    """
+    return HttpResponse(admin)
