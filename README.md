@@ -1,3 +1,5 @@
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=wwangwe&repo=labour-market-analysis&theme=graywhite)](https://github.com/anuraghazra/github-readme-stats)
+
 # Real-time Kenyan Labour Market Analysis
 
 ## 1. Web Scrapping
