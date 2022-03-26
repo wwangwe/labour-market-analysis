@@ -8,4 +8,5 @@ secret_url = config('SECRET_ADMIN_URL')
 urlpatterns = [
     path('admin/' + secret_url, admin.site.urls),
     path('', include('main_app.urls')),
+    path('api/', include('api_app.urls')),
 ]
