@@ -3,8 +3,8 @@ import time
 from datetime import datetime
 from random import randint
 
-from main.models import Job
-from main.web_scraper import fetch_job_details, fetch_jobs, prepare_soup
+from main_app.models import Job
+from main_app.web_scraper import fetch_job_details, fetch_jobs, prepare_soup
 
 
 class ScrapeThread(threading.Thread):
